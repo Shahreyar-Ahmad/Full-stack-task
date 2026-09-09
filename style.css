@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #0d6efd, #6610f2);
+    color: white;
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    margin-bottom: 30px;
+}
+
+
+/* About Section */
+#about {
+    background-color: #ffffff;
+}
+
+#about h2,
+#contact h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-box {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Contact Section */
+.contact-section {
+    background-color: #f1f3f5;
+}
+
+.contact-section form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Footer */
+footer {
+    margin-top: 0;
+}
+
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+
+    .hero-section {
+        min-height: 400px;
+        padding: 40px 20px;
+    }
+
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-box {
+        margin-top: 30px;
+    }
+}
